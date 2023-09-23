@@ -1,0 +1,43 @@
+body
+
+h1
+{
+   text-align: center;
+   color: rgb(47, 207, 146);
+  
+
+}
+
+
+.f4
+{
+    text-align: center;
+    color: rgb(240, 238, 238);
+    font-size: 20px;
+    font-size-adjust: 0.5;
+    position: absolute ;
+    bottom:520px;
+    left: 200px;
+   
+ 
+ }
+
+
+.dv1
+{	border: 1px solid black;
+    padding:1.5rem;
+    margin:1.5rem;
+    background-color: aquamarine;
+    height: 50px;
+    text-align: center;
+}
+span { font-weight:bold;}            
+
+.a10
+{
+    color:white;
+    background-color:aqua;
+    text-align:center;
+    font-size: larger;
+    font-weight: bolder;
+}
