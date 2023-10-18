@@ -1,0 +1,11 @@
+body{
+    background-color:rgba(20,150,6,0.5);
+}
+div{
+    background-color: rgba(200,150,6,0.5);
+}
+input.t{
+    height: 20px;
+    width: 100px;
+    color: green;
+}
