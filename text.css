@@ -71,6 +71,9 @@ nav li:hover .submenu{
 .submenu li
 {
     border:1px solid #CCC;
+    background-color:#fff;
+    border-radius:5px;
+    box-shadow:10px 10px 100px 10px red;
 }
 
 .submenu li a{
