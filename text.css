@@ -155,6 +155,30 @@ nav input[type=checkbox]:checked~ul{
 }
 
 
+@media screen and (max-width : 680px){
+    .menu-mobile{
+        dipsplay:block;
+        color:#fff;
+        background-color:red;
+        text-align:center;
+        padding:12px 0;
+    }
+    nav ul{
+        display:none;
+    }
+    nav ul li,nav ul li a{
+        width:100%;
+        text-align:center;
+    }
+    nav ul li a, nav ul li:hover a{
+        padding:10px 0px 10px 0px;
+    }
+    nav li:hover .submenu{
+        display:block;
+        position:static;
+    }
+}
+
 
 
 
