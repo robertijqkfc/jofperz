@@ -118,7 +118,7 @@ nav > ul> li:hover a{
 }
 
 .submenu li:hover a{
-    color:#EEE;
+    color:red;
     font-weight:bold;
 }
 
