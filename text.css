@@ -76,8 +76,8 @@ nav li:hover .submenu{
 .submenu li a{
     padding:15px 30px;
     font-size:13px;
-    color:#222538;
-    width:270px;
+    color:white;
+    width:170px;
 }
 
 .menu-html:hover{
