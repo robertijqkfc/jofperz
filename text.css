@@ -70,7 +70,7 @@ nav li:hover .submenu{
 
 .submenu li
 {
-    border-bottom:1px solid #CCC;
+    border:1px solid #CCC;
 }
 
 .submenu li a{
