@@ -40,7 +40,7 @@ function login(){
         window.location.href='tp8/page1.html'
     }
     else{
-        window.location.href='pt8/page2.html'
+        window.location.href='tp8/page2.html'
        
     }
 
