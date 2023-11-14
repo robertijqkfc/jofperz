@@ -34,13 +34,13 @@ function seconnecter2(){
     window.location.href='identification.html'
 }
 function login(){
-    var a = document.getElementById("h1").value;
-    var b = document.getElementById("h2").value;
+    var a = document.getElementById("login").value;
+    var b = document.getElementById("password").value;
     if (a =="admin" && b == "admin"){
-        window.location.href='yes.html'
+        window.location.href='tp8/page1.html'
     }
     else{
-        window.location.href='non.html'
+        window.location.href='pt8/page2.html'
        
     }
 
