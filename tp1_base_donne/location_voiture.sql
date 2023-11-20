@@ -106,14 +106,3 @@ ALTER TABLE `location`
   ADD CONSTRAINT `location_ibfk_2` FOREIGN KEY (`code_client`) REFERENCES `clients` (`nCIN`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `location_ibfk_1` FOREIGN KEY (`immatriculation`) REFERENCES `voiture` (`immatriculation`) ON DELETE CASCADE ON UPDATE CASCADE;
 
-<!DOCTYPE html>
-<html>
-<head>
-
-	<title></title>
-</head>
-
-<body>
-<image src="photo_concepteur.PNG">
-</body>
-</html>
