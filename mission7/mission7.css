@@ -9,22 +9,19 @@ header {
     background-color: rgb(33, 177, 69);
     color: black;
     text-align:center;
-    height:70px
+    height:70px;
+}
+
+.image{
+    position:absolute;
+    bottom:-111px;
+    right:40%;
 }
 
 
 
 
 
-
-div.iframe_gauche {
-    text-align: center;
-    border: solid;
-    width: 15%;
-    min-height: 800px;
-    border-radius: 10px;
-    margin-top: -1px;
-}
 
 
 
@@ -101,7 +98,4 @@ footer {
     height:70px
 }
 
-div.image{
-    float:right;
-}
 
