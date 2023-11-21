@@ -1,0 +1,65 @@
+h1
+{
+	background-color:#fff;
+	max-width:1000px;
+	margin:0 auto;
+	padding:20px;
+	border-radius:5px;
+	box-shadow:10px 10px 100px rgba(100,0,1000,0.2);
+	text-align:center;
+	background-color:lightblue;
+	color:green;
+}
+
+
+div
+{
+	background-color:#fff;
+	width:200px;
+	margin:15px ;
+	padding:80px;
+	border-radius:15px;
+	box-shadow:10px 10px 100px rgba(10,10000,0,0.2);
+	text-align:center;
+	background-color:lightblue;
+	color:green;
+	float:left;
+}
+
+body 
+{
+	background-color:grey;
+
+
+}
+
+h3
+{
+	border:solid blue;
+	border-radius:30px;
+	height:200px;
+	width:200px;
+	margin:15px;
+	padding:20px;
+	box-shadow:10px 10px 100px rgba(10,10000,0,0.2);
+	text-align:center;
+	background-color:lightblue;
+	color:green;
+	float:left;
+	padding-left:1px;
+	
+}
+
+
+footer  
+{
+background-color:#333;   
+color:#fff;                       
+text-align:center;
+	padding:10px;
+	clear:both;
+}
+
+
+
+

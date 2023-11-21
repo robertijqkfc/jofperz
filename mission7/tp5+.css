@@ -1,0 +1,30 @@
+header{
+	background-color:red;  /* Couleur de fond de la bannière*/
+	color:#fff;     /* Couleur du texte*/
+	text-align:center;
+	padding:20px;
+}
+h1{
+	font-size:36px;
+}
+section{
+	padding:20px;
+}
+h2{
+	font-size:24px;
+	color:#333;
+
+}
+p{
+	font-size:18px;
+	line-height:1.5; 
+	color:#555;
+}
+footer  
+{
+background-color:#333;   /* Couleur de fond du pied de page*/
+color:#fff;                        /* Couleur du texte */
+text-align:center;
+	padding:10px;
+}
+

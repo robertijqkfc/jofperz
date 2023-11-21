@@ -1,0 +1,40 @@
+.bloc1
+{
+	background-color:#fff;
+	max-width:400px;
+	margin:10px auto;
+	padding:20px;
+	border-radius:5px;
+	box-shadow:10px 10px 100px rgba(100,0,1000,0.2);
+	float:left;
+	height:200px;
+
+}
+
+.bloc2
+{
+	background-color:#fff;
+	max-width:200px;
+	margin:10px auto;
+	margin-left:10px;
+	padding:20px;
+	border-radius:15px;
+	box-shadow:10px 10px 100px rgba(100,1110,0,0.2);
+	float:left;
+	height:300px;
+}
+
+.bloc3
+{
+	clear:both;
+	background-color:red;
+	max-width:200px;
+	margin:10px auto;
+	padding:20px;
+	border-radius:15px;
+	box-shadow:10px 10px 100px rgba(100,1110,0,0.2);
+	margin-left:15px;
+	height:300px;
+	float:left;
+
+}
