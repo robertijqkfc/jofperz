@@ -205,5 +205,22 @@ document.body.style.background = color;
 }
 
 
+function valider(){
+ var a =document.getElementById(string).value;
+ var b =document.getElementById(caractere).value;
+ var longueur=a.length;
+ var majuscule=a.toUpperCase();
+ if (a.includes(b)){
+    alert("La valeur de la longueur du string est de :"  +longueur+ "La valeur en majuscule du string est : " +majuscule+)
+  }
+}
+
+
+
+
+
+
+
+
 
 
