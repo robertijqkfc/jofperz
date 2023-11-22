@@ -206,16 +206,40 @@ document.body.style.background = color;
 
 
 function valider(){
- var a =document.getElementById(string).value;
- var b =document.getElementById(caractere).value;
- var longueur=a.length;
- var majuscule=a.toUpperCase();
- if (a.includes(b)){
-    alert("La valeur de la longueur du string est de :"  +longueur+ "La valeur en majuscule du string est : " +majuscule+)
-  }
+ let chaine1 = document.getElementById('chaine1').value;
+ let caract = document.getElementById('caract').value;
+ let chaine2 = document.getElementById('chaine2').value;
+
+
+    if (chaine1.length && caract.length == 1) {
+        let repetitions = chaine1.split(caract).length - 1;
+
+        alert(
+              "Longueur de la chaîne : "+chaine1.length+"\nChaîne en majuscules : "+chaine1.toUpperCase()+"\nNombre de répétitions de "+caract+" dans la chaîne : "+repetitions);
+        
+    } 
+    else {
+        alert("Veuillez entrer une chaîne non vide et un caractère unique.");
+    }
 }
 
 
+function rechercher(){
+   let chaine1 = document.getElementById('chaine1').value;
+  let chaine2 = document.getElementById('chaine2').value;
+
+  if (chaine1.length<1 ||chaine2.length<2){
+    alert("Veuillez enter au moins 1 caractere pour chaine1 et  au moins 2 caracteres pour chaine2")
+  }
+  else{
+    let repetitions = chaine1.split(chaine2).length - 1;
+  
+    alert("Nombre de répétitions  de " +chaine2+  " dans " + chaine1+ " est : "+repetitions);
+
+  }
+
+
+}
 
 
 
