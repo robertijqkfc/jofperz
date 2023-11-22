@@ -1,8 +1,8 @@
 function exo0()
-	{let test = prompt("Merci d'inscrire une chaine de caractères ?");
+	{var test = prompt("Merci d'inscrire une chaine de caractères ?");
 
      document.body.innerHTML = test;
-}
+    }
 
 
 
@@ -80,8 +80,8 @@ function exo9(){
 }
 
 function exo10(){
-	let cp = 77 000;
-	while ( cp <= 77 999){
+	let cp = 77000;
+	while ( cp <= 77999){
 		console.log(cp);
 		cp++;
 	}
@@ -207,4 +207,6 @@ let b = Math.floor(Math.random() * 256);
 let color = "rgb(" + r + ", " + g + ", " + b + ")";
 document.body.style.background = color;
 }
+}
+
 
