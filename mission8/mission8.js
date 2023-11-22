@@ -24,6 +24,7 @@ function exo2 (){
 
 function exo3(){
 	let budget = 1553.89;
+	let achats = 500;
     if(budget >= achats) {
       alert('Le budget (' + budget + ' €) permet de payer tous les achats (' + achats + ' €)');
     }
@@ -59,15 +60,19 @@ function exo6(){
 	else{
 		document.body.innerHTML = '<h1 style ="color: green;">' + ttc + '</h1>'
 	}
+}
+
 
 function exo7(){
+	
 	document.getElementById("cocktail").innerText = " Long Island Iced Tea ";
 }
 
+
+
 function exo8(){
-	for(let i = 10 ; i < 1001 ; i+=10 ){
-		console.log(i);
-	}
+    for(let i=10;i<=1000;i+=10){console.log(i);}
+	alert("voir la console");
 }
 
 function exo9(){
@@ -79,43 +84,34 @@ function exo9(){
 	}
 }
 
-function exo10(){
-	let cp = 77000;
-	while ( cp <= 77999){
-		console.log(cp);
-		cp++;
-	}
-}
-
-function exo11(){
-	let n = 5 ;
-	let html = " ";
-	for(let i = 1; i<=10 ; i++){
-		multiplication_5 = html + n + "X" +  i + "=" +(n*i)+ "<br>";
-		console.log(i)
+ 
+function exo10(){let cp=77000;
+    while(cp<=77999) {
+       console.log(cp);
+       cp++;}
+	   alert("Voir la console")
 	}
 
-function exo12(){
-	let html =" ";
-	for ( let i = 1 ; i <=5 ; i++);{
-		for (let k = 1 ; k <= i; k++);{
-			html = html + i ;
-		}
-         html = html + "<br/>";
-    }
- document.body.innerHTML = html;
-}
 
-function exo13(){
-	let html =" ";
-	let nbre = 0 ;
-	while (nbre <=20){
-		html = html + k + "<br/>";
-		nbre = nbre +2;
-	}
-  document.body.innerHTML = html ; 
-}
+function exo11(){let n=5;
+    let html='';
+    for(let i=1;i<=10;i++){
+       html=html+n+' x '+i+' = '+(n*i)+' <br />';}
+    document.body.innerHTML=html;}
 
+	function exo12(){let html='';
+    for(let i=1;i<=5;i++){
+        for(let k=1;k<=i;k++){
+        html=html+i;}
+        html=html+'<br />';}
+    document.body.innerHTML=html;}
+
+	function exo13(){let html='';
+    let k=0;
+    while(k<=20){
+        html=html+k+'<br />';
+        k=k+2;}
+    document.body.innerHTML=html;}
 
 	
 
@@ -167,7 +163,7 @@ function exo16(){
 
 	Math.floor(Math.random()*100);
 
-}
+
 
 function exo17(){
 	let html = '<ul>';
@@ -207,6 +203,7 @@ let b = Math.floor(Math.random() * 256);
 let color = "rgb(" + r + ", " + g + ", " + b + ")";
 document.body.style.background = color;
 }
-}
+
+
 
 
