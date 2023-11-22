@@ -1,0 +1,51 @@
+body{
+	background-color: lightgrey;
+}
+h1#h1{
+position:absolute;
+
+right:80px;
+top:50px;
+color:grey;
+}
+p{
+position:absolute;
+
+right:100px;
+top:150px;
+color:black;
+}
+p#p2{
+position:absolute;
+
+right:100px;
+top:200px;
+color:grey;
+}
+
+div.div1{
+background-color:#3fbfb2;
+height:250px;
+
+}
+
+label{
+	color:red;
+	font-family:fantasy;
+	font-size:50px;
+}
+
+header{
+	height:20px;
+	background-color:grey;
+}
+
+footer{
+		height:20px;
+	background-color:grey;
+
+}
+
+div{
+	background-color:#28a9bd;
+}
