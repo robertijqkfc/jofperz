@@ -28,7 +28,7 @@ button {
 
 
 button:hover {
-    background-color: #BAE0FF;
+    background-color: #d1293f;
     transform: translate(4px, 4px);
     box-shadow: none;
     transition: 0.3s;
@@ -39,7 +39,7 @@ button:hover {
     align-items: center;
     flex-direction: column;
     margin: 50px auto;
-    border: 1px solid #f1f1f1;
+    border: 1px solid #ca1f1f;
 }
 
 @media (min-width: 770px) {
